@@ -5,7 +5,7 @@
 #oof("Sand", "Man")
 #oof("Left","Shake")
 
-#___________________________________
+#____________________________________________________________
 
 #This Function Return With
 #def addone(i):
@@ -32,7 +32,7 @@
 
 #print('B:' , b)
 
-#_________________________________
+#____________________________________________________________
 
 #def mynamenoa(name):
   #newname = ''
@@ -53,3 +53,39 @@
  #if(str(mynamenoa(n,l)) == ss
 
   #print(mynamenoa(n,l))
+
+#____________________________________________________________
+
+#class TestObject:
+   #x = 1
+   #y = 2
+   #z = 4
+
+   #def DoMyMath(x,y,z):
+    #TestObject.x = x + y / z
+    #return x 
+
+#print( TestObject.y ) 
+
+#class Book:
+  #numberOfPages = 0
+  #Title = ""
+  #Author = ""
+  #Editor = ""
+  #Illistrator = ""
+  #Fic = False
+
+#shelf = []
+
+#for r in range(3):
+  #b = Book
+  #b.numberOfPages = int(input('Number Of Pages?'))
+  #b.Title = str(input('Name of Book?'))
+  #b.Author = str(input('Author of Book?'))
+  #b.Editor = str(input('Editor of Book?'))
+  #b.Illistrator = str(input('Illistrator of Book?'))
+  #b.Fic = bool(input('True or False?'))
+  #shelf.append(b)
+
+#for r in range(3):
+ #print(shelf[r].Author)
